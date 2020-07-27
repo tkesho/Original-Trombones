@@ -1,0 +1,45 @@
+.header {
+	position: fixed;
+	width: 100%;
+	min-height: 75px;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eee;
+}
+
+.header__logo {
+	width: 55vh;
+}
+
+.header__logo img {
+	max-width: 300px;
+	margin-left: 20px;
+}
+
+.header__nav {
+	width: 35vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+li:hover {
+	color: #483300;
+}
+
+@media screen and (max-width: 600px){
+	.header__nav {
+		flex-direction: column;
+		text-align: center;
+
+		li {
+			margin: 0px 0px 0px 8px;
+		}
+	}
+}
+
+
+
+

@@ -1,0 +1,22 @@
+.footer {
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #ddd;
+}
+
+.footer .footer__links {
+	display: flex;
+	justify-content: flex-end;
+
+	li {
+		padding: 0 10px;
+	}
+}
+
+.footer .footer__src {
+	margin-top: 5px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 0.9em;
+	color: #444;
+}
